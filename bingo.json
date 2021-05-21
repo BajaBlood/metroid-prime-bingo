@@ -64,7 +64,7 @@
                 [5, "Flaahgra", "chozo"],
                 [9, "Thardus", "phendrana"],
                 [22, "Omega Pirate", "mines"],
-                [24, "Meta Ridley", "tallon"]
+                [23, "Meta Ridley", "tallon"]
             ],
             "types": ["major-boss"]
         },
@@ -74,16 +74,20 @@
                 [12, "3 Power Pirates using Super Missiles", "mines"],
                 [14, "3 Wave Pirates using Wavebuster", "mines"],
                 [14, "3 Ice Pirates using Ice Spreader", "mines"],
-                [21, "3 Plasma Pirates with Flamethrower", "mines"],
-                [20, "1 Enemy using Flamethrower (Magmoor or Larger)"]
+                [21, "3 Plasma Pirates using Flamethrower", "mines"]
             ],
+            "types": ["beam-combo"]
+        },
+        {
+            "name": "1 Large Enemy using Flamethrower (Magmoor+)",
+            "variants": [[20, ""]],
             "types": ["beam-combo"]
         },
         {
             "name": "Clear Ghosts in {X} Rooms",
             "variants": [
                 [5,  "2"],
-                [4,  "4"],
+                [14, "4"],
                 [19, "6"]
             ],
             "types": ["ghost"]
@@ -111,7 +115,7 @@
             "variants": [
                 [8,  "1"],
                 [13, "3"],
-                [23, "5"]
+                [22, "5"]
             ],
             "types": ["metroid"]
         },
@@ -183,7 +187,7 @@
                 [19, "Storage Depot A", "mines"],
                 [23, "Metroid Quarantine B", "mines"],
                 [23, "Processing Center Access", "mines"],
-                [24, "Phazon Mining Tunnel", "mines"]
+                [23, "Phazon Mining Tunnel", "mines"]
             ],
             "types": ["location"]
         },
@@ -253,7 +257,7 @@
                 [3,  "1"],
                 [8,  "2"],
                 [16, "3"],
-                [24, "4"]
+                [23, "4"]
             ],
             "types": ["item", "beam-combo"]
         },
@@ -263,7 +267,7 @@
                 [4,  "1"],
                 [10, "2"],
                 [17, "3"],
-                [24, "4"]
+                [23, "4"]
             ],
             "types": ["item", "power-bomb"]
         },
@@ -277,7 +281,7 @@
             "variants": [
                 [4,  "1"],
                 [13, "2"],
-                [23, "3"]
+                [22, "3"]
             ],
             "types": ["item", "suit"]
         },
@@ -344,6 +348,34 @@
                 [22, "2"]
             ],
             "types": ["missile-station"]
+        },
+        {
+            "name": "Finish in {X}",
+            "variants": [
+                [24, "Artifact Temple", "tallon"],
+                [24, "Gully", "tallon"],
+                [24, "Biotech Research Area 1", "tallon"],
+                [24, "Arbor Chamber", "tallon"],
+                [24, "Life Grove", "tallon"],
+                [24, "Piston Tunnel", "chozo"],
+                [24, "Tower Chamber", "chozo"],
+                [24, "Sunchamber", "chozo"],
+                [24, "Crossway Acces South (Morph Tunnel)", "chozo"],
+                [24, "Warrior Shrine", "magmoor"],
+                [24, "Plasma Processing", "magmoor"],
+                [24, "Chapel of the Elders", "phendrana"],
+                [24, "Quarantine Monitor", "phendrana"],
+                [24, "Hunter Cave Access", "phendrana"],
+                [24, "Waste Disposal", "mines"],
+                [24, "Ventillation Shaft", "mines"],
+                [24, "Phazon Mining Tunnel (By Item)", "mines"]
+            ],
+            "types": ["finish-in"]
+        },
+        {
+            "name": "1 lap around the Geothermal Core Spider Track",
+            "variants": [[22,  ""]],
+            "types": ["magmoor"]
         }
     ]
 }
